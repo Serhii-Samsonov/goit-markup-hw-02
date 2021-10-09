@@ -33,14 +33,6 @@ body {
   text-decoration: none;
 }
 
-.contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
@@ -83,6 +75,13 @@ body {
   color: var(--accent-color);
 }
 
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 /* -------------hero-------------- */
 
 .hero-title {
@@ -100,6 +99,8 @@ body {
 }
 
 .hero-btn {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -127,7 +128,7 @@ body {
 }
 
 .about-text {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,7 +167,7 @@ body {
 }
 
 .team-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -174,11 +175,35 @@ body {
   color: var(--primary-text-color);
 }
 
+/* -------------footer-------------- */
+
+.footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.footer-contact-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
 /* -------------portfolio-------------- */
 
 /* -------------btn-------------- */
 
 .btn-black {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -189,6 +214,8 @@ body {
 
 .btn-white:focus,
 .btn-white:hover {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
